@@ -1,0 +1,11 @@
+.logo{
+    height: 4rem;
+    width: 4rem;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
