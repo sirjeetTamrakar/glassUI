@@ -2,10 +2,7 @@ import React from 'react'
 import Icons from './Icons';
 import Features from './Features';
 import styles from "../styles/Animation.module.css";
-import duck from '../public/V6/duck.png'
-import graph from "../public/V6/Graph.png";
-import shelf from "../public/V6/5.png";
-import person from "../public/V6/4-2.png";
+import Image from 'next/image'
 
 const Animation = () => {
     return (
@@ -21,8 +18,8 @@ const Animation = () => {
 								<br /> Marketing
 							</h1>
 							<div className={styles.tags}>
-								<div>
-									<img className={styles.icons} src='/V6/5.png' alt='shelf' />
+								<div className={styles.icons}>
+									<Image height={50} width={50} src='/V6/5.png' alt='shelf' />
 								</div>
 								<div>
 									<h3 className={styles.h3}>Idea</h3>
@@ -30,9 +27,10 @@ const Animation = () => {
 								</div>
 							</div>
 							<div className={styles.tags}>
-								<div>
-									<img
-										className={styles.icons}
+								<div className={styles.icons}>
+									<Image
+										height={50}
+										width={50}
 										src='/V6/Graph.png'
 										alt='Graph'
 									/>
@@ -43,9 +41,10 @@ const Animation = () => {
 								</div>
 							</div>
 							<div className={styles.tags}>
-								<div>
-									<img
-										className={styles.icons}
+								<div className={styles.icons}>
+									<Image
+										height={50}
+										width={50}
 										src='/V6/4-2.png'
 										alt='Person'
 									/>
@@ -58,7 +57,9 @@ const Animation = () => {
 								</div>
 							</div>
 						</div>
-						<img className={styles.duck} src='/V6/duck.png' alt='Duck' />
+						<div className={styles.duck}>
+							<Image height={810} width={810} src='/V6/duck.png' alt='Duck' />
+						</div>
 					</div>
 					<div>
 						<Icons />
