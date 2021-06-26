@@ -58,7 +58,7 @@ const Animation = () => {
 							</div>
 						</div>
 						<div className={styles.duck}>
-							<Image height={810} width={810} src='/V6/duck.png' alt='Duck' />
+							<Image height={500} width={500} src='/V6/duck.png' alt='Duck' />
 						</div>
 					</div>
 					<div>

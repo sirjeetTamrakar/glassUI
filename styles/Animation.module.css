@@ -42,8 +42,8 @@
 .circle2{
     height: 5rem;
     width: 5rem;
-    top:80%;
-    left: 2%;
+    top:0%;
+    left:5%;
     animation: circle2 15s linear infinite;
 }
 
@@ -117,10 +117,10 @@
 }
 @keyframes circle2 {
     0%, 100%{
-        transform: translateY(-50px);
+        transform: translateY(0px);
     }
     50%{
-        transform: translateY(50px);
+        transform: translateY(300px);
     }
 }
 @keyframes circle3 {
