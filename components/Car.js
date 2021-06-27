@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Car = () => {
     return (
-		<Carousel fade={true} prevLabel='' nextLabel=''>
+		<Carousel prevLabel='' nextLabel=''>
 			{people.map(({name,id,avatar,designation,message}) => (
 				<Carousel.Item key={id}>
 					<div className={styles.circle1} />
