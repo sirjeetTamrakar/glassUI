@@ -5,13 +5,14 @@ import { people } from './Data'
 import Image from 'next/image'
 
 const Car = () => {
-    return (
+	return (
+		<div style={{position:'relative'}}>
+			<div className={styles.circle1} />
+			<div className={styles.circle2} />
+			<div className={styles.circle3} />
 		<Carousel prevLabel='' nextLabel=''>
 			{people.map(({name,id,avatar,designation,message}) => (
 				<Carousel.Item key={id}>
-					<div className={styles.circle1} />
-					<div className={styles.circle2} />
-					<div className={styles.circle3} />
 					<div className={styles.main}>
 						<div className={styles.card}>
 							<div className={styles.div}>
@@ -24,6 +25,7 @@ const Car = () => {
 				</Carousel.Item>
 			))}
 			</Carousel>
+		</div>
 		);
 }
 

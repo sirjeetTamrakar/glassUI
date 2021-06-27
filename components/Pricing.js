@@ -10,14 +10,19 @@ const Pricing = () => {
 					{pricing.map(
 						({id, plan, price, space, bandwidth, domain, accounts}) => (
 							<div key={id} className={styles.price}>
-								<h3>{plan}</h3>
-                                <h1><sup>$</sup>{price}</h1>
-                                <div className={styles.p}>
-								<p>{space}</p>
-								<p>{bandwidth}</p>
-								<p>{domain}</p>
-                                    <p>{accounts}</p>
-                                </div>
+								<div>
+									<h3 className={styles.head}>{plan}</h3>
+									<h1 className={styles.dollar}>
+										<sup><small>$</small></sup>
+										{price}
+									</h1>
+								</div>
+								<div className={styles.p}>
+									<p>{space}</p>
+									<p>{bandwidth}</p>
+									<p>{domain}</p>
+									<p>{accounts}</p>
+								</div>
 								<button className={styles.btn}>Buy Now</button>
 							</div>
 						)
