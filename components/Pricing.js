@@ -6,7 +6,8 @@ import Image from 'next/image'
 const Pricing = () => {
     return (
 			<div className={styles.back}>
-				<div id='pricing' className={styles.main}>
+				<h1 className={styles.header}>PRICING</h1>
+			<div id='pricing' className={styles.main}>
 					{pricing.map(
 						({id, plan, price, space, bandwidth, domain, accounts}) => (
 							<div key={id} className={styles.price}>

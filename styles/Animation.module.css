@@ -84,6 +84,7 @@
     padding: 1rem;
     width: 80%;
     margin-left: 2rem ;
+    
 }
 
 .tags:hover{
@@ -93,14 +94,17 @@
 .title{
     font-size: 4rem;
     padding: 2rem;
+    font-weight: 600;
 }
 
 .p{
-    font-size: small;
+    font-size: medium;
+    font-weight: 500;
 }
 
 .h3{
-    font-size: medium;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .icons{
@@ -154,6 +158,17 @@
     }
     .hero{
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .title{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .title{
+        font-size: 1.5rem;
     }
 }
 

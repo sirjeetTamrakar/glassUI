@@ -1,6 +1,5 @@
 import React from 'react'
 import Icons from './Icons';
-import Features from './Features';
 import styles from "../styles/Animation.module.css";
 import Image from 'next/image'
 
@@ -63,9 +62,6 @@ const Animation = () => {
 					</div>
 					<div>
 						<Icons />
-					</div>
-					<div>
-						<Features />
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,74 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
+    backdrop-filter: blur(1rem);
+    padding: 3rem;
+    color: black;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+.main{
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    top: 5%;
+
+    background-color: rgb(168, 236, 214);
+    animation: circle 15s linear infinite;
+}
+
+.title{
+        font-weight: bolder;
+        font-size: 1.5rem;
+}
+
+.content{
+    font-weight: 500;
+    font-size: medium;
+}
+
+@keyframes circle {
+    0%, 100%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .grid{
+        grid-template-columns: repeat(2,auto);
+        row-gap: 1rem;
+                text-align: center;
+
+    }
+   
+}
+
+
+@media screen and (max-width:500px) {
+
+    .grid{
+        grid-template-columns: auto;
+        row-gap: 1rem;
+        text-align: center;
+    }
+     @keyframes circle {
+    0%, 100%{
+        transform: translateY(400px);
+    }
+    50%{
+        transform: translateY(-200px);
+    }
+}
+}

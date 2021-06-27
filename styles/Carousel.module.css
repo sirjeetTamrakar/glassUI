@@ -12,6 +12,13 @@
     
 }
 
+.header{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5rem;
+}
+
 .div{
     height: 25rem;
     width: 100%;
