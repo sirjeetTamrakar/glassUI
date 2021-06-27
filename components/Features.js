@@ -9,7 +9,7 @@ const Features = () => {
 		<div>
 			<h1 className={styles.header}>FEATURES</h1>
 			{features.slice(0,4).map(({ title, purchasingUnit, type, imageUrl }) => (
-				<div className={styles.main}>
+				<div key={ title} className={styles.main}>
 					<div className={styles.img}>
 						<Image  height={500} width={500} src={imageUrl} alt={imageUrl} />
 					</div>
