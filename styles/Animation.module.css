@@ -16,8 +16,8 @@
     width: 90vw;
     border-radius: 2rem;
     margin: 3rem 0rem;
-    background: linear-gradient(to right top, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.3));
-    backdrop-filter: blur(2rem);
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
+    backdrop-filter: blur(1rem);
 }
 
 .grid{
@@ -42,7 +42,7 @@
 .circle2{
     height: 5rem;
     width: 5rem;
-    top:0%;
+    top:5%;
     left:5%;
     animation: circle2 15s linear infinite;
 }
@@ -118,9 +118,16 @@
 @keyframes circle2 {
     0%, 100%{
         transform: translateY(0px);
+        transform: translateX(50px);
+    }
+    25%{
+        transform: translateY(100px);
     }
     50%{
         transform: translateY(300px);
+    }
+    75%{
+        transform: translateX(100px);
     }
 }
 @keyframes circle3 {
@@ -135,14 +142,7 @@
     }
 }
 
-@keyframes scooter {
-    0%, 100%{
-        transform: translateX(50px);
-    }
-    50%{
-        transform: translateX(200px);
-    }
-}
+
 
 @media screen and (max-width:1000px) {
     .duck{

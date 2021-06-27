@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
+import Link from 'next/link'
 import styles from "../styles/Navbar.module.css";
 
 const NavBar = () => {
@@ -9,18 +10,18 @@ const NavBar = () => {
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 					<Navbar.Collapse id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
-							<Nav.Link className={styles.a} href='#features'>
+							<Link className={styles.a} href='#home'>
 								Home
-							</Nav.Link>
-							<Nav.Link className={styles.a} href='#pricing'>
+							</Link>
+							<Link className={styles.a} href='#contact'>
 								Contact
-							</Nav.Link>
-							<Nav.Link className={styles.a} href='#features'>
+							</Link>
+							<Link className={styles.a} href='#about'>
 								About
-							</Nav.Link>
-							<Nav.Link className={styles.a} href='#pricing'>
+							</Link>
+							<Link className={styles.a} href='#pricing'>
 								Pricing
-							</Nav.Link>
+							</Link>
 							<button className={styles.get_started}>Get Started</button>
 						</Nav>
 					</Navbar.Collapse>

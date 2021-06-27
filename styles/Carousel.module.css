@@ -1,0 +1,64 @@
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.div{
+    height: 20rem;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.circle1, .circle2, .circle3{
+    border-radius: 50%;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
+    position: absolute;
+}
+
+.circle1{
+    height: 7rem;
+    width: 7rem;
+    top:50%;
+    right: 15%;
+}
+
+.circle2{
+    height: 5rem;
+    width: 5rem;
+    top:0%;
+    left:22%;
+    animation: circle2 15s linear infinite;
+}
+
+.circle3{
+    height: 5rem;
+    width: 5rem;
+    top:30%;
+    animation: circle3 10s linear infinite;
+}
+
+@media screen and (max-width:1000px) {
+    .card{
+        width: 90%;
+    }
+}
