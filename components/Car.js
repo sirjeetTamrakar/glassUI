@@ -7,11 +7,11 @@ import Image from 'next/image'
 const Car = () => {
     return (
 		<Carousel fade={true} prevLabel='' nextLabel=''>
-			<div className={styles.circle1} />
-			<div className={styles.circle2} />
-			<div className={styles.circle3} />
 			{people.map(({name,id,avatar,designation,message}) => (
 				<Carousel.Item key={id}>
+					<div className={styles.circle1} />
+					<div className={styles.circle2} />
+					<div className={styles.circle3} />
 					<div className={styles.main}>
 						<div className={styles.card}>
 							<div className={styles.div}>
