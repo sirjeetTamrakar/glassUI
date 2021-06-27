@@ -63,12 +63,5 @@
         row-gap: 1rem;
         text-align: center;
     }
-     @keyframes circle {
-    0%, 100%{
-        transform: translateY(400px);
-    }
-    50%{
-        transform: translateY(-200px);
-    }
-}
+
 }
