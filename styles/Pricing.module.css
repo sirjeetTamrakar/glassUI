@@ -8,6 +8,8 @@
     margin-bottom: 5rem;
     width: 90%;
     color: white;
+    text-align: center;
+    letter-spacing: .1rem;
 }
 
 .back{
@@ -37,15 +39,15 @@
 }
 
 .price:nth-child(1){
-background: linear-gradient(to bottom, #f7b733, #fc4a1a); 
+background: linear-gradient(to top, #f7b733, #ff00cc); 
 }
 
 .price:nth-child(2){
     transform: scaleY(1.1);
-background: linear-gradient(to bottom, #ff00cc, #333399);}
+background: linear-gradient(to bottom, #ff00cc,rgb(104, 178, 247));}
 
 .price:nth-child(3){
-background: linear-gradient(to bottom, #00c3ff, #ecec78);}
+background: linear-gradient(to bottom, #ff00cc, #abff96);}
   
 .price:hover{
     transform: scaleY(1.1);
@@ -64,72 +66,13 @@ background: linear-gradient(to bottom, #00c3ff, #ecec78);}
 }
 
 .btn:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
-.circle1, .circle2, .circle3{
-    border-radius: 50%;
-    background: linear-gradient(to right top, rgba(11, 255, 214, 0.2), rgba(78, 173, 134, 0.658));
-    position: absolute;
-}
-
-.circle1{
-    height: 7rem;
-    width: 7rem;
-    top:50%;
-    right: 5%;
-        animation: circle1 35s linear infinite;
-
-}
-
-.circle2{
-    height: 3rem;
-    width: 3rem;
-    top:0%;
-    left:50%;
-    animation: circle2 35s linear infinite;
-}
-
-.circle3{
-    height: 5rem;
-    width: 5rem;
-    top:30%;
-    animation: circle3 35s linear infinite;
-}
-
-@keyframes circle1 {
-    0%, 100%{
-        transform: translateY(100px);
-    }
-    50%{
-        transform: translateY(-50px);
-    }
-}
-@keyframes circle2 {
-    0%, 100%{
-        transform: translateY(0px);
-        transform: translateX(50px);
-    }
-    25%{
-        transform: translateY(100px);
-    }
-    50%{
-        transform: translateY(300px);
-    }
-    75%{
-        transform: translateX(100px);
-    }
-}
-@keyframes circle3 {
-    0%, 100%{
-        transform: translateY(100px);
-    }
-    50%{
-        transform: translateY(-100px);
-    }
-    75%{
-        transform: translateX(-50px);
-    }
+.p{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width:1000px) {

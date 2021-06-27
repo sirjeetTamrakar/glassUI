@@ -10,17 +10,17 @@ const NavBar = () => {
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 					<Navbar.Collapse id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
-							<Link className={styles.a} href='#home'>
-								Home
+							<Link href='#home'>
+								<a className={styles.a}>Home</a>
 							</Link>
-							<Link className={styles.a} href='#contact'>
-								Contact
+							<Link href='#contact'>
+								<a className={styles.a}>Contact</a>
 							</Link>
-							<Link className={styles.a} href='#about'>
-								About
+							<Link href='#about'>
+								<a className={styles.a}>About</a>
 							</Link>
-							<Link className={styles.a} href='#pricing'>
-								Pricing
+							<Link href='#pricing'>
+								<a className={styles.a}>Pricing</a>
 							</Link>
 							<button className={styles.get_started}>Get Started</button>
 						</Nav>

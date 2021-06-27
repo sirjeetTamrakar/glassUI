@@ -6,19 +6,18 @@ import Image from 'next/image'
 const Pricing = () => {
     return (
 			<div className={styles.back}>
-				<div className={styles.circle1} />
-				<div className={styles.circle2} />
-				<div className={styles.circle3} />
 				<div id='pricing' className={styles.main}>
 					{pricing.map(
 						({id, plan, price, space, bandwidth, domain, accounts}) => (
 							<div key={id} className={styles.price}>
 								<h3>{plan}</h3>
-								<h1 className='text-white'>${price}</h1>
+                                <h1><sup>$</sup>{price}</h1>
+                                <div className={styles.p}>
 								<p>{space}</p>
 								<p>{bandwidth}</p>
 								<p>{domain}</p>
-								<p>{accounts}</p>
+                                    <p>{accounts}</p>
+                                </div>
 								<button className={styles.btn}>Buy Now</button>
 							</div>
 						)
