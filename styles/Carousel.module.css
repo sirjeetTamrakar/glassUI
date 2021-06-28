@@ -71,7 +71,7 @@
         transform: translateY(50px);
     }
     50%{
-        transform: translateX(100px);
+        transform: translateX(-150px);
     }
 }
 @keyframes circle2 {

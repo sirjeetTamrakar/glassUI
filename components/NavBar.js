@@ -7,7 +7,9 @@ const NavBar = () => {
     return (
 			<div className={styles.nav}>
 				<Navbar collapseOnSelect expand='lg'>
-					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+					<Navbar.Toggle aria-controls='responsive-navbar-nav'>
+						<img src='https://img.icons8.com/ios-filled/50/000000/xbox-menu.png' />
+					</Navbar.Toggle>
 					<Navbar.Collapse id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
 							<Link href='#home'>

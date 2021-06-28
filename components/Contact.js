@@ -46,9 +46,9 @@ const Contact = () => {
 						alt='Snow'
 					/>
 					<div className={styles.center}>
-						<h2>Address: Baluwatar, Kathmandu</h2>
-						<h2>sirjeettamrakar007@gmail.com</h2>
-						<h2>9860913929</h2>
+						<div>Address: Baluwatar, Kathmandu</div>
+						<div>sirjeettamrakar007@gmail.com</div>
+						<div>9860913929</div>
 					</div>
 				</div>
 				<form

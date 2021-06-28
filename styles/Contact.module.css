@@ -6,7 +6,7 @@
     margin-top: 4rem;
     height:80vh;
     position: relative;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.2));
+    background: linear-gradient(to right top, rgba(171, 58, 175, 0.4), rgba(193, 255, 252, 0.9));
     backdrop-filter: blur(1rem);
     color: black;
     margin-bottom: 6rem;
@@ -80,6 +80,7 @@
     color: white;
     width: 100%;
     padding-left: 4rem;
+    font-size: 2rem;
 }
 
 
@@ -101,13 +102,20 @@
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1300px) {
+    .center{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width:770px) {
     .form{
         width:80%;
         display: flex;
         justify-content: center;
         padding: 1rem;
-        border-radius: 1rem;
+        border-radius: 2rem;
         height: 90%;
         border-radius: 0.3rem;
     }
