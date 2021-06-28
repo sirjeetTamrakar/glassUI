@@ -37,7 +37,7 @@
     width: 7rem;
     top:50%;
     right: 10%;
-    animation: circle1 10s linear infinite;
+    animation: circle1 20s linear infinite;
 }
 
 .circle2{
@@ -45,12 +45,12 @@
     width: 5rem;
     top:5%;
     left:5%;
-    animation: circle2 15s linear infinite;
+    animation: circle2 25s linear infinite;
 }
 
 .circle3{
-    height: 15rem;
-    width: 15rem;
+    height: 3rem;
+    width: 3rem;
     top:30%;
     animation: circle3 10s linear infinite;
 }
