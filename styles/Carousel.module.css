@@ -39,7 +39,7 @@
 
 .circle1, .circle2, .circle3{
     border-radius: 50%;
-    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(12, 183, 226, 0.7));
     position: absolute;
 }
 
@@ -48,6 +48,7 @@
     width: 7rem;
     top:50%;
     right: 15%;
+    animation: circle1 15s linear infinite;
 }
 
 .circle2{
@@ -64,6 +65,42 @@
     top:30%;
     animation: circle3 10s linear infinite;
 }
+
+@keyframes circle1 {
+    0%, 100%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+}
+@keyframes circle2 {
+    0%, 100%{
+        transform: translateY(0px);
+        transform: translateX(50px);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+}
+@keyframes circle3 {
+    0%, 100%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateX(-25px);
+    }
+}
+
 
 @media screen and (max-width:1000px) {
     .card{

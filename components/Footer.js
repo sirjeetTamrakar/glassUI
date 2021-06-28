@@ -4,7 +4,9 @@ import styles from '../styles/Footer.module.css'
 const Footer = () => {
 	return (
 		<div className={styles.main}>
-			<div className={styles.circle}/>
+			<div className={styles.circle1} />
+			<div className={styles.circle2} />
+			<div className={styles.circle3} />
 			<div className={styles.grid}>
 				<div className={styles.title}>
 					Get Started

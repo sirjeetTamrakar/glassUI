@@ -4,6 +4,7 @@ import Animation from "../components/Animation";
 import Features from "../components/Features";
 import Car from "../components/Car";
 import Pricing from "../components/Pricing";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,6 +16,7 @@ const App = () => {
 			<Features />
 			<Car />
 			<Pricing />
+			<Contact/>
 			<Footer/>
 		</div>
 	);

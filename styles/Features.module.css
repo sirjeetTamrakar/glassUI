@@ -5,8 +5,8 @@
     margin-left: auto;
     margin-right: auto;
     padding-inline: 2rem;
-    background: linear-gradient(to right top, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3));
-    backdrop-filter: blur(1rem);
+    background: linear-gradient(to right top, rgba(87, 168, 157, 0.2), rgba(255, 140, 140, 0.3));
+    backdrop-filter: blur(.7rem);
     margin-bottom: 2rem;
     border-radius: 1rem;
     padding: 2rem;
@@ -37,6 +37,71 @@
 .img:hover{
     transform: scale(1.1);
     
+}
+
+.circle1, .circle2, .circle3{
+    border-radius: 50%;
+    background: linear-gradient(to right top, rgb(0, 255, 200), rgba(100, 255, 100, 0.788));
+    position: absolute;
+}
+
+.circle1{
+    height: 7rem;
+    width: 7rem;
+    top:50%;
+    right: 17%;
+    animation:  circle1 15s linear infinite;
+}
+
+.circle2{
+    height: 5rem;
+    width: 5rem;
+    top:0%;
+    left:22%;
+    animation: circle2 25s linear infinite;
+}
+
+.circle3{
+    height: 2rem;
+    width: 2rem;
+    top:30%;
+    left: 50%;
+    animation: circle3 40s linear infinite;
+}
+
+@keyframes circle1 {
+    0%, 100%{
+        transform: translateY(200px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+}
+@keyframes circle2 {
+    0%, 100%{
+        transform: translateY(0px);
+        transform: translateX(50px);
+    }
+    25%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+}
+@keyframes circle3 {
+    0%, 100%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    75%{
+        transform: translateX(-25px);
+    }
 }
 
 @media screen and (max-width:770px) {
