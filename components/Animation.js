@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Animation = () => {
     return (
-			<div className={styles.main}>
+			<div id='home' className={styles.main}>
 				<div className={styles.circle1} />
 				<div className={styles.circle2} />
 				<div className={styles.circle3} />
