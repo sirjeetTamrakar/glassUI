@@ -16,7 +16,7 @@ const NavBar = () => {
 							alt='icon'
 						/>
 					</Navbar.Toggle>
-					<Navbar.Collapse id='responsive-navbar-nav'>
+					<Navbar.Collapse className={styles.collapse} id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
 							<Nav.Link component={Link} href='#home'>
 								<div className={styles.a}>Home</div>

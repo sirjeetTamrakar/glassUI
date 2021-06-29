@@ -13,11 +13,11 @@ text-align: center;}
     font-size: 1.5rem; 
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem; 
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,255,255,0.2));
-    backdrop-filter: blur(1rem);
     position: sticky;
     top: 0;
     z-index: 2;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,255,255,0.2));
+    backdrop-filter: blur(1rem);
 }
 
 .a{
@@ -49,11 +49,24 @@ text-align: center;}
     .nav{
         width: 100%;
         border-radius: 0;
+        background: none;
+        backdrop-filter: none;
     }
 
     .get_started{
             margin: auto;
             margin-top: 1rem;
+            margin-bottom: 2rem;
 
+    }
+
+    .collapse{
+        position: absolute;
+        top:0;
+        padding-top: 3rem;
+        width: 100%;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,255,255,0.2));
+    backdrop-filter: blur(1rem);
+    z-index: -1;
     }
 }
