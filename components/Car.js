@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Car = () => {
 	return (
-		<div style={{position: "relative"}}>
+		<div id= 'team' style={{position: "relative"}}>
 			<div className={styles.circle1} />
 			<div className={styles.circle2} />
 			<div className={styles.circle3} />

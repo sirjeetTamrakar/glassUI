@@ -175,6 +175,8 @@ export const features = [
 						keyWords: '{"keyword":"IT telecom"}',
 						tenantId: "xyzcompany",
 						resources: null,
+						message:
+							"Team offers a powerful suite of tools that every client must have. And if you get stuck their support team will help out. Its is fast, reliable and has no complications at all.",
 					},
 
 					{
@@ -190,6 +192,8 @@ export const features = [
 						keyWords: '{"keyword":"marketing services"}',
 						tenantId: "xyzcompany",
 						resources: null,
+						message:
+							"The vibe, level of inquiry, feedback and traffic at our product services and newly designed booth at a recent conference was very positive.",
 					},
 
 					{
@@ -205,6 +209,8 @@ export const features = [
 						keyWords: '{"keyword":"safety equipment"}',
 						tenantId: "xyzcompany",
 						resources: null,
+						message:
+							"Product bring 10x multiplier in terms of both ease and spread of use. I'm able to quickly and easily execute on my marketing strategies. That the fundamental difference from other services.",
 					},
 
 					{
@@ -220,6 +226,8 @@ export const features = [
 						keyWords: '{"keyword":"IT services infotech"}',
 						tenantId: "xyzcompany",
 						resources: null,
+						message:
+							"Team offers a powerful suite of tools that every client must have. And if you get stuck their support team will help out. Its is fast, reliable and has no complications at all.",
 					},
 
 					{
@@ -235,6 +243,8 @@ export const features = [
 						keyWords: '{"keyword":"equipment maintenance fix"}',
 						tenantId: "xyzcompany",
 						resources: null,
+						message:
+							"Team offers a powerful suite of tools that every client must have. And if you get stuck their support team will help out. Its is fast, reliable and has no complications at all.",
 					},
 
 					{

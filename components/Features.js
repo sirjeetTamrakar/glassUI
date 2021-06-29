@@ -8,7 +8,7 @@ const Features = () => {
     return (
 			<div>
 				<h1 className={styles.header}>FEATURES</h1>
-				{features.slice(0, 4).map(({title, purchasingUnit, type, imageUrl}) => (
+				{features.slice(0, 4).map(({title, purchasingUnit, type, imageUrl, message}) => (
 					<div key={title} style={{position: "relative"}}>
 						<div className={styles.circle1} />
 						<div className={styles.circle2} />
@@ -19,8 +19,7 @@ const Features = () => {
 							</div>
 							<div className={styles.flex}>
 								<h1>{title}</h1>
-								<h4>{purchasingUnit}</h4>
-								<h4>{type}</h4>
+						<div style={{color:'black', margin:'1rem', marginLeft:'0'}}>{ message}</div>
 							</div>
 						</div>
 					</div>

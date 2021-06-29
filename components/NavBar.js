@@ -8,9 +8,9 @@ const NavBar = () => {
     return (
 			<div className={styles.nav}>
 				<Navbar collapseOnSelect expand='lg'>
-					<Navbar.Toggle aria-controls='responsive-navbar-nav'/>
-						{/* <Image layout='fill' src='https://img.icons8.com/ios-filled/50/000000/xbox-menu.png' alt='icon'/>
-					</Navbar.Toggle> */}
+					<Navbar.Toggle aria-controls='responsive-navbar-nav'>
+						<Image height={40} width={40} src='https://img.icons8.com/ios-filled/50/000000/xbox-menu.png' alt='icon'/>
+					</Navbar.Toggle>
 					<Navbar.Collapse id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
 							<Link href='#home'>
@@ -19,11 +19,11 @@ const NavBar = () => {
 							<Link href='#contact'>
 								<a className={styles.a}>Contact</a>
 							</Link>
-							<Link href='#about'>
-								<a className={styles.a}>About</a>
-							</Link>
 							<Link href='#pricing'>
 								<a className={styles.a}>Pricing</a>
+							</Link>
+							<Link href='#team'>
+								<a className={styles.a}>Team</a>
 							</Link>
 							<button className={styles.get_started}>Get Started</button>
 						</Nav>

@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, auto);
 background: linear-gradient(to left bottom, rgba(87, 168, 157, 0.8), rgba(255, 140, 140, 0.3));    backdrop-filter: blur(1rem);
     padding: 3rem;
-    color: black;
+    color: white;
     justify-content: space-evenly;
     cursor: pointer;
     

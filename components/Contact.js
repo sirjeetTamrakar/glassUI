@@ -37,7 +37,7 @@ const Contact = () => {
 
 	return (
 		<>
-			<div className={`mx-auto ${styles.form}`}>
+			<div id='contact' className={`mx-auto ${styles.form}`}>
 				<div  className={styles.imgBg}>
 					<Image
 						layout='fill'

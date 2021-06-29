@@ -10,6 +10,12 @@
     margin: 4rem 0rem;
 
 }
+.header{
+    text-align: center;
+    font-weight:900;
+    color: black;
+    margin-top: 4rem;
+}
 
 @media screen and (max-width:500px) {
     .logo{
