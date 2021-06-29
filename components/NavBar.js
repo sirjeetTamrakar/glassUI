@@ -19,16 +19,16 @@ const NavBar = () => {
 					<Navbar.Collapse id='responsive-navbar-nav'>
 						<Nav className={styles.navbar}>
 							<Nav.Link component={Link} href='#home'>
-								<a className={styles.a}>Home</a>
+								<div className={styles.a}>Home</div>
 							</Nav.Link>
 							<Nav.Link component={Link} href='#contact'>
-								<a className={styles.a}>Contact</a>
+								<div className={styles.a}>Contact</div>
 							</Nav.Link>
 							<Nav.Link component={Link} href='#pricing'>
-								<a className={styles.a}>Pricing</a>
+								<div className={styles.a}>Pricing</div>
 							</Nav.Link>
 							<Nav.Link component={Link} href='#team'>
-								<a className={styles.a}>Team</a>
+								<div className={styles.a}>Team</div>
 							</Nav.Link>
 							<button className={styles.get_started}>Get Started</button>
 						</Nav>
